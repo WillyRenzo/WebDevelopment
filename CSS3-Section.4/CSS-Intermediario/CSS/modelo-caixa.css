@@ -1,0 +1,14 @@
+.conteudo{
+	border: 1px solid red;
+	/*
+	Sentido horário (top right bottom left)
+	 */
+	padding: 20px 15px 10px 5px;	
+	 */
+	padding: 20px;
+	/*
+	margin: 20px 15px 10px 5px;
+	 */
+	margin: 10px;
+	width: 150px; 
+}

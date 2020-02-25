@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabelas</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<a href="index.html">Home</a><br>
+	<br>
+	<table border="2" width="100%">
+		<tr>
+			<!-- TH é table Header, TD é table data -->
+			<th>Código</th>
+			<th>Produto</th>
+			<th>Preço</th>
+		</tr>
+		<tr>
+			<td>001</td>
+			<td>Notebook</td>
+			<td>300,00</td>
+		</tr>
+		<tr>
+			<td>002</td>
+			<td>Notebook</td>
+			<td>500,00</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Desconto</td> <!-- o Atributo rowspan serve para mesclar uma ou mais linhas da tabela-->
+			<td colspan="2">Cupom 1 - R$10</td> <!-- o Atributo colspan serve para mesclar um ou mais colunas da tabela-->
+		</tr>
+		<tr>
+			<td colspan="2">Cupom 2 - R$12</td>
+		</tr>
+	</table>
+
+</body>
+</html>

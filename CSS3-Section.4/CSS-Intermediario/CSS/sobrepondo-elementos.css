@@ -1,0 +1,33 @@
+.conteudo1{
+	border: 1px solid red;
+	background: orange;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 2;
+}
+.conteudo2{
+	border: 1px solid red;
+	background: green;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	z-index: 1;
+	/*
+	z-index serve para sobrepor elementos,
+	quanto maior o numero no z-index mais a frente
+	o objeto aparece
+	 */
+}
+.conteudo3{
+	border: 1px solid red;
+	background: blue;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 160px;
+	left: 160px;
+	z-index: 0;
+}

@@ -1,0 +1,55 @@
+body{
+	background: #007fc7;
+}
+h1{
+	/*
+	Por padrão já temos o position como static.
+	position: static; 
+	 */
+}
+p{
+	width: 300px;
+}
+#container{
+	background: #FFF;
+	width: 800px;
+	margin: 10px auto;
+	padding: 10px;
+	/*
+	utilizando position: relative no container
+	para que o P2 se alinhe a ele.;
+	 */
+	position: relative;
+}
+.relative{
+	border: 1px solid red;
+	position: relative;
+	/*
+	Após definir o position: relative,
+	é possivel utilizar propriedades de deslocamento
+	para movimentar o objeto em relação
+	 a sua posição inicial;
+	top, right, bottom e left
+	 */
+	top: 20px;
+	left: 80px;
+}
+.absolute{
+	position: absolute;
+	/*
+	position: absolute o elemento foge do fluxo padrão do site
+	e vai ser posicionado ao container que não seja STATIC */
+	background: #f2f2f2; 
+	border: 1px solid red;
+	top: 0px;
+	right: 20px;
+}
+.fixed{
+	/*
+	position: fixed serve para que o objeto fique fixo
+	independente do rolamento da pagina!;
+	 */
+	position: fixed;
+	background: #f2f2f2; 
+	border: 1px solid red;
+}

@@ -1,0 +1,60 @@
+body{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.header_group{
+	height: 20%;
+	border-width:1em;  
+    border-style:groove;
+    border-color: #780305;
+    background-color: #780305;
+}
+.header_group:before,
+.header_group:after {
+    content: "";
+    display: table;
+} 
+.header_group:after {
+    clear: both;
+}
+#html{
+	width: 45%;
+	border-width: 0.2em;
+	border-style: solid;
+	height: 20%;
+	position:relative;
+	float: left;
+}
+#css{
+	position:relative;
+	width: 45%;
+	border-style: solid;
+	border-width: 0.2em;
+	height: 20%;
+	float: right;
+}
+/*
+.group:before,.group:after e clear:both, é utilizado para quebrar a flutuação!;
+Site de referência: https://pt.stackoverflow.com/questions/261957/colocar-uma-div-do-lado-da-outra
+ */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.header_title{
+	color:#FC0004;
+	position: relative;
+	
+}
+.header_image{
+	position: relative;
+	width: 30%;
+	float: left;
+}
+.titulo_subdiv{
+	font-size: 2em;
+	text-align: center;
+}
