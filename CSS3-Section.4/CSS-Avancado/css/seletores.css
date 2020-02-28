@@ -1,0 +1,48 @@
+/*---------Seletor universal---------*/
+/*
+*{
+	border: 1px solid red;
+}
+ */
+/*---------Seletores de Classe*/
+.verde{
+
+}
+/*
+Quando colocamos o objeto.class significa que o objeto especificado que tenha a classe
+será modificado
+ */
+p.verde{
+
+}
+/*-------Seletor de filho------*/
+/*
+Para ser filho, é necessário que o elemento está aninhado logo em seguida ao objeto!
+O exemplo abaixo signifca que estamos buscando um link (A) que está diretamente dentro de um objeto lista (LI)
+ */
+li>a{
+
+}
+/*-------Seletor de descendente-------*/
+/*
+Seleciona quaisquer elementos <a> que residem dentro de um elemento <p>, mesmo se houver
+outros elementos aninhados entre eles
+ */
+p a{
+
+}
+/*-------Seletor de irmão adjacente------*/
+/*
+Seleciona o PRIMEIRO elemento <p> depois de qualquer elemento <h1> (mas não outros elementos <p>)
+ */
+h1+p{
+
+}
+/*-------Seletor de irmão geral--------*/
+/*
+Se houvesse dois elementos <p> que fossem irmaos de um elemento <h1>, essa regra se aplicaria aos dois
+e não apenas a um deles!
+ */
+h1~p{
+
+}

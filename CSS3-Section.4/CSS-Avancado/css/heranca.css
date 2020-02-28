@@ -1,0 +1,40 @@
+/*-------Herança e especificidade------*/
+/*
+Por padrão, border e background não ser herdados!
+body{
+	color: red; 
+}
+*/
+/*
+No caso de seletores iguais, sempre o ultimo da arvore
+sera o aplicado!
+A menos que você utilize o !important,
+logo você estará dando a prioridade para o elemento
+que possui o mesmo!
+#pagina p{
+	color:blue !important;
+}
+#pagina p{
+	color: red;
+}
+ */
+
+/*
+Se um seletor for mais específico que outro
+a regra mais especifica será aplicada
+(terá precedência sobre regras mais gerais)
+ Ordem de especificidade abaixo
+h2 > h2.verde > h2#amarelo (Logo o aplicado sera o h2#amarelo)
+ */
+*{
+	color:red;
+}
+h2{
+	color:blue;
+}
+h2.verde{
+	color: green;
+}
+h2#amarelo{
+	color: yellow;
+}
